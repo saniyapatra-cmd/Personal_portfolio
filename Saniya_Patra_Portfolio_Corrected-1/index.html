@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Saniya Patra | Web Developer & IT Student</title>
+  <meta name="title" content="Saniya Patra | Web Developer & IT Student">
+  <meta name="description" content="Portfolio of Saniya Patra, an Information Technology undergraduate passionate about web development, programming, and design.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/saniya-profile.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.svg" width="120" height="32" alt="Saniya Patra home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="120" height="32" alt="Saniya Patra home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills</a></li><li><a href="#education" class="navbar-link">Education</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:dipalipatra297@gmail.com" class="contact-link">dipalipatra297@gmail.com</a>
+
+          <a href="tel:+916289032039" class="contact-link">+91 62890 32039</a>
+        </div>
+
+        <ul class="social-list">
+          <li><a href="https://github.com/saniyapatra-cmd" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li><a href="https://www.linkedin.com/in/saniya-patra-343861402" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/saniya-profile.jpg" width="560" height="540" alt="Portrait of Saniya Patra" class="w-100"
+              data-reveal="top">
+
+            <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="" aria-hidden="true" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm Saniya Patra — Web Developer, Programmer & Designer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Saniya, a second-year B.Tech Information Technology student at Narula Institute of Technology, Kolkata. I enjoy turning ideas into clean, accessible web experiences and exploring how code can solve real-world problems. I'm building my skills in frontend development, Python, problem-solving, and thoughtful UI design—and I'm eager to learn, collaborate, and contribute to a team.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                I’m an undergraduate IT student who loves combining logic and creativity. My interests span responsive web development, interface design, programming fundamentals, and building useful tools. I value curiosity, clear communication, steady improvement, and writing code that is understandable as well as functional.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Frontend Development</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Programming</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>UI / UX Design</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Problem Solving</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Experiences</h3>
+
+                <p class="card-text">
+                  Building clean, user-friendly web pages with HTML, CSS, and JavaScript, with attention to structure, accessibility, and detail.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Responsive Design</h3>
+
+                <p class="card-text">
+                  Creating layouts that adapt smoothly across desktop, tablet, and mobile screens for a consistent user experience.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Programming</h3>
+
+                <p class="card-text">
+                  Practising programming with C, C++, Python, and Java basics while strengthening data structures and algorithmic thinking.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Learning Mindset</h3>
+
+                <p class="card-text">
+                  Exploring new tools, learning from feedback, and approaching unfamiliar problems with curiosity and a practical mindset.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <section class="section about" id="skills" aria-label="skills">
+        <div class="container">
+          <div class="title-wrapper"><div><h2 class="h2 section-title">Skills & Toolkit</h2><p class="section-text">A growing toolkit I use to turn ideas into practical digital experiences.</p></div></div>
+          <ul class="grid-list">
+            <li><div class="about-card"><h3 class="h4 card-title">Programming Foundations</h3><p class="card-text">C, C++, Python, and basic Java — building confidence in logic, problem-solving, and writing structured code.</p></div></li>
+            <li><div class="about-card"><h3 class="h4 card-title">Web Development</h3><p class="card-text">HTML, CSS, JavaScript, and introductory React.js and Node.js concepts for responsive interfaces and web applications.</p></div></li>
+            <li><div class="about-card"><h3 class="h4 card-title">Core Concepts</h3><p class="card-text">Data Structures and Algorithms (DSA), debugging, breaking problems into steps, and continuously improving code quality.</p></div></li>
+            <li><div class="about-card"><h3 class="h4 card-title">Tools & Collaboration</h3><p class="card-text">VS Code, GitHub, version-control basics, documentation, and a willingness to learn from code reviews and teamwork.</p></div></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section about" id="education" aria-label="education">
+        <div class="container">
+          <div class="title-wrapper">
+            <div><h2 class="h2 section-title">Education</h2><p class="section-text">My academic foundation and ongoing learning journey.</p></div>
+          </div>
+          <ul class="grid-list">
+            <li><div class="about-card"><h3 class="h4 card-title">B.Tech in Information Technology</h3><p class="card-text"><strong>Narula Institute of Technology</strong><br>July 2025 – July 2029 (expected)<br></p></div></li>
+            <li><div class="about-card"><h3 class="h4 card-title">Higher Secondary (Class XII)</h3><p class="card-text"><strong>Dum Dum Ananda Ashram Sarada Vidyapeeth</strong><br>Physics, Chemistry, Mathematics and Computer Science</p></div></li>
+            <li><div class="about-card"><h3 class="h4 card-title">Secondary (Class X)</h3><p class="card-text"><strong>Sinthee Ramkrishna Sangha Vidya Mandir for Girls</strong></p></div></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="projects" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Development</p>
+
+                  <h3 class="h3 card-title">Portfolio Website</h3>
+
+                  <p class="card-text">A personal portfolio built to present my background, skills, learning journey, and projects in a clear, responsive format. This site is my first portfolio project and will evolve as I build more work.</p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/portfolio-preview.webp" width="650" height="370" loading="lazy" alt="Portfolio website design preview"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class="card-tag" style="color: #a07cc5">Python • AI • Automation</p>
+
+                  <h3 class="h3 card-title">SIYA Voice Assistant</h3>
+
+                  <p class="card-text">Planned project: a voice-controlled desktop assistant concept exploring speech recognition, text-to-speech with pyttsx3, Python automation with PyAutoGUI, API requests, and optional GPT-powered responses.</p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/siya-voice-assistant.jpg" width="600" height="367" loading="eager" alt="SIYA voice assistant interface concept"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Full-Stack Web App</p>
+
+                  <h3 class="h3 card-title">ShopSphere E-commerce</h3>
+
+                  <p class="card-text">Planned project: a modern online shopping experience with product discovery, category filters, product details, cart interactions, and a responsive checkout flow.</p>
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/ecommerce-preview.webp" width="600" height="367" loading="lazy" alt="E-commerce shopping website concept"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">JavaScript • Algorithms</p>
+
+                  <h3 class="h3 card-title">DSA Visualizer</h3>
+
+                  <p class="card-text">Planned interactive learning tool to animate sorting, trees, graphs, and pathfinding step by step, helping learners understand how algorithms work.</p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/dsa-visualizer.png" width="620" height="370" loading="lazy" alt="Interactive data structures and algorithms visualizer concept"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-5" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">AI • Career Tools</p>
+
+                  <h3 class="h3 card-title">CareerCompass AI</h3>
+
+                  <p class="card-text">Planned project: a career preparation platform concept with role-based skill roadmaps, resume feedback, interview practice prompts, and a job-application tracker to help students organise their search.</p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/career-compass-ai.webp" width="620" height="370" loading="lazy" alt="CareerCompass AI career planning interface concept"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I’m currently looking for opportunities to learn, contribute, and grow through internships, entry-level roles, and collaborative projects. If you’re hiring for a curious IT student with a growing foundation in web development and programming, I’d love to connect.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2026 Saniya Patra. Built with curiosity and code.
+      </p>
+
+      <ul class="social-list">
+          <li><a href="https://github.com/saniyapatra-cmd" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li><a href="https://www.linkedin.com/in/saniya-patra-343861402" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+  <script>
+    // Remove template-only fictional project-count badges (never the profile portrait).
+    (function () {
+      function cleanFakeStats() {
+        document.querySelectorAll('body *').forEach(function (el) {
+          if (el.children.length > 0) return;
+          var text = (el.textContent || '').replace(/\s+/g, ' ').trim();
+          if (/250\s*\+/.test(text) && /projects?\s*(done|completed)/i.test(text)) {
+            var target = el;
+            for (var i = 0; i < 3 && target.parentElement && target.parentElement !== document.body; i++) target = target.parentElement;
+            target.remove();
+          }
+        });
+        document.querySelectorAll('[class*=badge], [class*=stat], [class*=counter]').forEach(function (el) {
+          var text = (el.innerText || el.textContent || '').replace(/\s+/g, ' ').trim();
+          if (/250\s*\+/.test(text) && /projects?\s*(done|completed)/i.test(text)) el.remove();
+        });
+      }
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', cleanFakeStats);
+      else cleanFakeStats();
+    })();
+  </script>
+
+</body>
+
+</html>

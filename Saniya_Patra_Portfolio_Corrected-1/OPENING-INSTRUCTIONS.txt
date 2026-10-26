@@ -1,0 +1,7 @@
+SANIYA PATRA PORTFOLIO - OPENING INSTRUCTIONS
+
+1. Extract this ZIP completely into a new folder.
+2. Open index.html from this extracted folder.
+3. Keep the assets folder beside index.html. Do not open an older copy.
+
+This version removes the fictional 250+ Projects Done badge and fixes the SIYA Voice Assistant image file format/path.
